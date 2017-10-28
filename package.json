@@ -13,7 +13,8 @@
     "url": "https://gitlab.com/JortvD/jnode-v2/issues"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "specs": "test.bat"
   },
   "homepage": "https://gitlab.com/JortvD/jnode-v2#README",
   "dependencies": {
