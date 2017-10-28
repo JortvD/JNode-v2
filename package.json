@@ -1,0 +1,32 @@
+{
+  "name": "jnodev2",
+  "version": "0.0.1",
+  "description": "The second version of JNode",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/JortvD/jnode-v2.git"
+  },
+  "author": "JortvD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/JortvD/jnode-v2/issues"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "homepage": "https://gitlab.com/JortvD/jnode-v2#README",
+  "dependencies": {
+    "accepts": "^1.3.4",
+    "chai": "^4.1.2",
+    "jimp": "^0.2.28",
+    "mime": "^2.0.3",
+    "mocha": "^4.0.1",
+    "mongojs": "^2.4.1",
+    "node-rsa": "^0.4.2",
+    "request": "^2.83.0",
+    "systeminformation": "^3.30.2",
+    "type-is": "^1.6.15",
+    "xss": "^0.3.4"
+  }
+}
